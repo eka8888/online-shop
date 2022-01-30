@@ -1,0 +1,116 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "HP Spectre",
+      "description": "HP’S Spectre X360 14 Review",
+      "imageUrl": "https://cdn.vox-cdn.com/thumbor/em-afxm-ZG8gJ2y95usqdPc5DCQ=/0x0:2040x1360/1400x933/filters:focal(874x638:1200x964):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/68767652/mchin_190429_4395_0002.0.jpg",
+      "price": 1500
+    },
+    {
+      "id": 2,
+      "name": "HP Spectre1",
+      "description": "HP’S Spectre ",
+      "imageUrl": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80",
+      "price": 1600
+    },
+    {
+      "id": 3,
+      "name": "CNN Dell",
+      "description": "CNN Dell XPS 13 OLED review ",
+      "imageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/210628154626-best-windows-laptop-dell-xps-13-front.jpg?q=w_3892,h_2190,x_0,y_0,c_fill",
+      "price": 2997
+    },
+    {
+      "id": 4,
+      "name": "LG",
+      "description": "LG gram 17",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq5I1B2jFZPR9Jjd0_27L4n1ci1ktScH3lTwWlIZM_1lZIAd1i3eFDDF6-nsP5pqUwuL4&usqp=CAU",
+      "price": 2949
+    },
+    {
+      "id": 5,
+      "name": "Asus",
+      "description": "Black and Silver Asus",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7QQv2a2ViHIg2HTAle62jEFibyqYlHkQX31P0TTpmep595xM4r2pJvLp4V-ngK-3Yx6M&usqp=CAU",
+      "price": 2299
+    },
+    {
+      "id": 6,
+      "name": "HP laptop",
+      "description": "HP laptop",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRC2tgwlDDIzNTDnU2nKTuSmyJW_1104hlwSHnEL-wuxqEZfDx0sMKzt22hvZbQi2ydII&usqp=CAU",
+      "price": 2199
+    }
+  ],
+  "wishlist": [],
+  "cart": [
+    {
+      "product": {
+        "id": 5,
+        "name": "Asus",
+        "description": "Black and Silver Asus",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7QQv2a2ViHIg2HTAle62jEFibyqYlHkQX31P0TTpmep595xM4r2pJvLp4V-ngK-3Yx6M&usqp=CAU",
+        "price": 2299
+      },
+      "id": 1
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "HP Spectre1",
+        "description": "HP’S Spectre ",
+        "imageUrl": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        "price": 1600
+      },
+      "id": 2
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "CNN Dell",
+        "description": "CNN Dell XPS 13 OLED review ",
+        "imageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/210628154626-best-windows-laptop-dell-xps-13-front.jpg?q=w_3892,h_2190,x_0,y_0,c_fill",
+        "price": 2997
+      },
+      "id": 3
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "CNN Dell",
+        "description": "CNN Dell XPS 13 OLED review ",
+        "imageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/210628154626-best-windows-laptop-dell-xps-13-front.jpg?q=w_3892,h_2190,x_0,y_0,c_fill",
+        "price": 2997
+      },
+      "id": 4
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "CNN Dell",
+        "description": "CNN Dell XPS 13 OLED review ",
+        "imageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/210628154626-best-windows-laptop-dell-xps-13-front.jpg?q=w_3892,h_2190,x_0,y_0,c_fill",
+        "price": 2997
+      },
+      "id": 5
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

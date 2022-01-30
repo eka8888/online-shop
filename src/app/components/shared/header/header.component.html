@@ -1,0 +1,49 @@
+<div class="head1 d-flex justify-content-end">
+    <div class="p-2">
+        <p><i class="fab fa-viber"> </i>Viber</p>
+    </div>
+
+    <div class="p-2">
+        <p class="phone"><i class="fas fa-phone"></i>+375 17 302 10 21 </p>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+        More
+      </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <li><button class="dropdown-item" type="button"> :)+375 25 502 10 21</button></li>
+            <li><button class="dropdown-item" type="button"> <i class="fas fa-phone"></i> +375 17 302 10 21 </button></li>
+            <li><button class="dropdown-item" type="button"><i class="fab fa-telegram"></i> Telegram</button></li>
+            <li><button class="dropdown-item" type="button"><i class="fas fa-envelope-open-text"></i> Mail</button></li>
+            <li><button class="dropdown-item" type="button"><i class="fas fa-envelope-open-text"></i> Write us</button></li>
+        </ul>
+    </div>
+
+
+    <div class="p-2">
+        <p class="contact"> <i class="far fa-clock"></i>Contact center from 8:00 to 22:00 </p>
+    </div>
+</div>
+
+<div class="head d-flex justify-content-around">
+    <div class="p-2">
+        <a [routerLink]="['/shop']" class="logo">
+            <h4 class="logo1">RS Shop</h4>
+        </a>
+
+    </div>
+
+    <div class="p-2"><button class="btn1"><a [routerLink]="['/shop']" class="logo"><h4 class="logo1">Catalog</h4></a></button></div>
+
+
+    <div class="p-2">
+        <form>
+            <div class="form-group" id="inputicon">
+                <label for="from"></label>
+                <input type="text" id="from" class="from-control" class="input" placeholder="Product search" name="name" [(ngModel)]="name" (ngModelChange)="Search()">
+                <i class='fas fa-search'></i>
+            </div>
+        </form>
+    </div>
+</div>

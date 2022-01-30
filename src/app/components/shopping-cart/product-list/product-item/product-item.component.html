@@ -1,0 +1,19 @@
+<div class="card shadow-sm">
+    <img class="card-img " [src]="productItem.imageUrl">
+
+
+    <div class="card-body">
+        <p class="card-text"><strong class="text-muted">{{productItem.price|currency:'USD'}}</strong>
+            <i *ngIf="addedToWishlist" class="fas fa-heart float-right" (click)="handleRemoveFromWishlist()"></i>
+            <i *ngIf="!addedToWishlist" class="far fa-heart float-right" (click)="handleAddToWishlist()"></i>
+        </p>
+
+        <p class="card-text">{{productItem.description|slice:0:80}}...</p>
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary" (click)="handleAddToCart()">Add to Cart</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">View Details</button>
+            </div>
+
+        </div>
+    </div>

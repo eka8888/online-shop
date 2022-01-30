@@ -1,0 +1,20 @@
+<app-header></app-header>
+
+
+<div class=" nav d-flex justify-content-around">
+    <div class="p-2">
+        <nav class="my-2 d-inline-flex mt-2 mt-md-0 ms-md-auto">
+            <a class="products p-2 text-dark " [routerLink]="['/shop']">Products</a>
+        </nav>
+    </div>
+    <div class="dropdown nav d-flex justify-content-around">
+        <div class="p-2">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+    Account
+  </button>
+            <ul class="dropdown-menu" id="accountdrop1" aria-labelledby="dropdownMenu2">
+                <a class="btn2 btn-outline-primary" id="accountdrop" [routerLink]="['/register']">Sign up</a>
+                <br>
+                <a class=" btn2 btn-outline-primary" id="accountdrop" [routerLink]="['/login']">Login</a>
+            </ul>
+        </div>
